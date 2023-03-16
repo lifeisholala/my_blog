@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+  text-align: center;
+}
+
+/*c */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:rgb(29, 26, 26);
+  width: 100%;
+  padding: 1px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.right_box {
+  background-color: rgb(255, 255, 255);
+  float: right;
+  width: 22%;
+  padding-top: 15cm;
+  margin-top: 20px;
+  text-align: top;
+}
+
+.img {
+  padding: auto;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <div class="header">
+        <h2>인간 차승제는 누구인가에 관한 철학적 고찰</h2>
+      </div>
+
+      <div class="row">
+        <div class="right_box">
+          <p>
+            닮은꼴 ㅋ
+          </p>
+          <div class="img">
+            <img src="image/QoRha.png" alt="빼꼼 사진">
+          </div>
+        </div>
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>신상정보</h2>
+            <h5>세상에서 가장 주관적인 연구기관 '알빠노'의 검수를 받은 정확한 정보임</h5>
+            <div class="fakeimg" style="height:200px; color: white;">
+                신체정보 <br>
+                ㅤㅤ-이름:차승제 <br>
+                ㅤㅤ-나이:15 <br>
+                ㅤㅤ-키:198cm <br>
+            </div>
+            <p>Some text..</p>
+          </div>
+          <div class="card">
+            <h2>TITLE HEADING</h2>
+            <h5>Title description, Sep 2, 2017</h5>
+            <div class="fakeimg" style="height:200px;">Image</div>
+            <p>Some text..</p>
+          </div>
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>About Me</h2>
+            <div class="fakeimg" style="height:100px;">Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+          </div>
+          <div class="card">
+            <h3>Popular Post</h3>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div><br>
+            <div class="fakeimg">Image</div>
+          </div>
+          <div class="card">
+            <h3>Follow Me</h3>
+            <p>Some text..</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <h2>Footer</h2>
+      </div>
+
+</body>
+</html>
